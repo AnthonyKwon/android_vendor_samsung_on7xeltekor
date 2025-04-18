@@ -1,4 +1,4 @@
-# NVRAM file for ON7 Turkey Rev01 TSSI NVRAM - 20160627
+# NVRAM file for ON7 KOR NVRAM - 20161019
 # 2.4 GHz, 20 MHz BW mode
 
 # The following parameter values are just placeholders, need to be updated.
@@ -17,8 +17,8 @@ xtalfreq=37400
 nocrc=1
 ag0=0
 aa2g=1
-ccode=GB
-regrev=6
+ccode=KR
+regrev=70
 
 pa0itssit=0x20
 extpagain2g=0
@@ -37,12 +37,12 @@ AvVmid_c0=0x0,0xc8
 cckpwroffset0=0
 
 # PPR params
-#74/4-1.5=17dBm
-maxp2ga0=74
+#80/4-1.5=18.5dBm
+maxp2ga0=80
 txpwrbckof=6
 cckbw202gpo=0x0000
-legofdmbw202gpo=0x66222222
-mcsbw202gpo=0x88222222
+legofdmbw202gpo=0x88444444
+mcsbw202gpo=0xAA444444
 propbw202gpo=0xdd
 # OFDM IIR :
 ofdmdigfilttype=17
@@ -79,4 +79,4 @@ fccpwrch12=30
 fccpwrch13=30
 fccpwroverride=0
 
-dynamicsarctrl_2g=0x00b8
+dynamicsarctrl_2g=0x00b0
